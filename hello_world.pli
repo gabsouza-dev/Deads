@@ -1,0 +1,14 @@
+HELLO:
+  PROCEDURE OPTIONS(MAIN);
+  PUT SKIP LIST('Hello, World!');
+
+  /* Número aleatório */
+  DCL random FLOAT BINARY;
+  random = RAND();
+  PUT SKIP LIST('Número aleatório: ', random);
+
+  /* Data e hora atual */
+  DCL (year, month, day, hour, minute, second) CHAR(2);
+  CALL DATETIME(year, month, day, hour, minute, second);
+  PUT SKIP LIST('Data e hora atual: ', year, '-', month, '-', day, ' ', hour, ':', minute, ':', second);
+END HELLO;
