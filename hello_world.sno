@@ -1,0 +1,8 @@
+OUTPUT = "Hello, World!"
+
+RANDOM_NUMBER = RAND()
+OUTPUT = "Número aleatório: " RANDOM_NUMBER
+
+DATE_TIME = "Data e hora não são suportadas diretamente em SNOBOL"
+OUTPUT = DATE_TIME
+END
