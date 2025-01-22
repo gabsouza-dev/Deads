@@ -58,5 +58,5 @@ Dependendo da linguagem, você precisará de um compilador ou interpretador espe
 ### Executando
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/linguagens-mortas.git
-   cd linguagens-mortas
+   git clone https://github.com/gabsouza-dev/Deads.git
+   cd Deads
